@@ -1,4 +1,6 @@
-$color: #00cc99;
+
+@import "_variable.scss";
+@import "_reset.scss";
 
 .header {
   height: 200px;
