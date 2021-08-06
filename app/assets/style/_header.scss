@@ -2,7 +2,24 @@
 .header {
   background-color: $bg-primary ;
 
+  
 }
+.header-nav h1{
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/week3/logo.png");  width: 80px;
+  height: 49px;
+  width: 80px;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+.navlist{
 
-
-
+}
+.navlist li a{
+	color: $text-white;
+	display:block;
+	font-weight:bold;
+	text-align:center;
+	padding: 10px;
+}
