@@ -29,10 +29,13 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
-    line-height: 1;
+    line-height: 1.5;
 }
 ol, ul {
     list-style: none;
+}
+a {
+    text-decoration: none;
 }
 blockquote, q {
     quotes: none;
@@ -45,4 +48,7 @@ q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
 }
