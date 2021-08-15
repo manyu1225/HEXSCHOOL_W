@@ -1,4 +1,4 @@
-console.log('ffff');
+
 $(document).ready(function (event) {
     var $li = $('.product__tab__list li')
     $($li.eq(0).addClass('active').find('a').attr('href')).siblings('.product__tab__item').hide()
