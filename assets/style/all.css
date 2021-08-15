@@ -515,6 +515,93 @@ body {
         padding: 11px 12px;
         color: #555555; }
 
+.stores {
+  padding-top: 96px;
+  padding-bottom: 160px; }
+  .stores-subtitle {
+    font-size: 48px;
+    line-height: 1.5;
+    font-weight: bold;
+    border-left: 8px solid #9F1213;
+    padding-left: 16px;
+    margin-bottom: 60px; }
+  .stores-form {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 32px; }
+    .stores-form label {
+      font-size: 24px;
+      line-height: 1.5; }
+    .stores-form select {
+      width: 324px;
+      height: 45px;
+      margin-left: 12px;
+      color: #495057;
+      border: 1px solid #ced4da; }
+  .stores-list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .stores-list::after {
+      content: "";
+      width: 31.3333%; }
+  .stores-card {
+    width: 31.3333%; }
+    .stores-card:nth-last-child(n + 3) {
+      margin-bottom: 32px; }
+    .stores-card:not(:last-child) {
+      margin-bottom: 16px; }
+    .stores-card img {
+      width: 100%;
+      height: 224px;
+      display: block;
+      max-width: 100%; }
+    .stores-card-title {
+      border: 1px solid #00000020;
+      line-height: 1.5;
+      color: #212529;
+      padding: 12px 0 12px 24px;
+      font-size: 24px; }
+    .stores-card-text {
+      padding: 16px 27px;
+      border: 1px solid #00000020; }
+      .stores-card-text li {
+        margin-top: 8px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .stores-card-text li img {
+          display: block;
+          max-width: 100%;
+          width: 18px;
+          height: 18px; }
+        .stores-card-text li p {
+          margin-left: 11px;
+          font-size: 20px;
+          line-height: 1.5;
+          color: #212529; }
+  .stores .stores-card-btn {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 19px;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #000000; }
+
+.branch-card {
+  margin-bottom: 0;
+  width: 40%; }
+  .branch-card:not(:last-child) {
+    margin-bottom: 0; }
+
+.branch-map {
+  width: 55%; }
+
 .footer {
   padding: 32px 0 39px 0;
   background-color: #AA0601;
