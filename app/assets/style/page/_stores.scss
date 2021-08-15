@@ -1,0 +1,88 @@
+.stores {
+    padding-top: 96px;
+    padding-bottom: 160px;
+    &-subtitle {
+        font-size: 48px;
+        line-height: 1.5;
+        font-weight: bold;
+        border-left: 8px solid $text-secondary;
+        padding-left: 16px;
+        margin-bottom: 60px;
+    }
+    &-form {
+      align-items: center;
+      margin-bottom: 32px;
+      label {
+        font-size:24px;
+        line-height: 1.5;
+      }
+      select {
+        width: 324px;
+        height: 45px;
+        margin-left: 12px;
+        color: $text-gray-2;
+        border: 1px solid $text-white-2;
+      }
+    }
+    &-list{
+      flex-wrap: wrap;
+      justify-content: space-between;
+      &::after {
+        content: "";
+        width: 31.3333%;
+      }
+    }
+   &-card{
+      width: 31.3333%;
+      &:nth-last-child(n + 3) {
+        margin-bottom: 32px;
+      
+      }
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+      img {
+        width: 100%;
+        height: 224px;
+        display: block;
+        max-width: 100%;
+      }
+      &-title{
+        border: 1px solid $text-translate;
+        line-height: 1.5;
+        color:$text-gray;
+        padding: 12px 0 12px 24px;
+        font-size: 24px;
+      } 
+      &-text{   
+       padding: 16px 27px;
+       border: 1px solid $text-translate;
+       li{
+         margin-top: 8px;
+         align-items: center;
+          img{
+            display: block;
+            max-width: 100%;
+            width: 18px;
+            height: 18px;
+          }
+          p{
+            margin-left: 11px;
+            font-size: 20px;
+            line-height: 1.5;
+            color: $text-gray;
+          }
+        }
+      } 
+    }
+    .stores-card-btn {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 19px;
+        line-height: 1.5;
+        color: $text-white;
+        background-color: $bg-dark;
+    }
+}

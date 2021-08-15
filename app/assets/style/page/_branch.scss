@@ -1,0 +1,11 @@
+.branch-card{
+    margin-bottom: 0;
+    width: 40%;
+    &:not(:last-child) {
+        margin-bottom: 0;
+    }
+}
+
+.branch-map {
+    width: 55%;
+}
