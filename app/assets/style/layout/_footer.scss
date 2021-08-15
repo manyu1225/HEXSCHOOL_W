@@ -1,0 +1,126 @@
+.footer {
+  padding: 32px 0 39px 0;
+  background-color: $bg-primary ;
+  color: $text-white;
+  @include pad(){
+    padding: 32px 0;
+  }
+  @include phone(){
+    padding: 24px 0;
+  } 
+  &-info{
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+    justify-content: space-between;
+    border-bottom: 1px solid $text-white;
+    @include pad(){
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+    }
+    @include pad(){
+      padding-bottom: 24px;
+      margin-bottom: 16px;
+    }
+  }
+  &-nav{
+    justify-content: space-between;
+    align-items: center;
+    &-list{
+      margin-bottom: 36px;
+      justify-content: flex-start;
+      @include pad(){
+        margin-bottom: 18px;
+      }
+      @include phone(){
+          display: none;
+      }
+      a{
+        margin-right: 48px;
+        font-size: 16px;
+        color: $text-white;
+        @include pad(){
+          margin-right: 40px;
+        }
+        &:hover{
+           color: $link-orange;
+
+        }
+      }
+    }
+  }
+  img, a{
+    display: inline-block;
+    vertical-align: middle;
+    }
+
+  &-contact{
+    img{
+      @include pad(){
+          width: 18px;
+      }
+    }
+    @include pad(){
+      margin-bottom: 12px;
+    }
+    a{
+      margin-left: 16px;
+      font-size: 36px;
+      color: $text-white;
+      &:hover{
+        color: $link-orange;
+      }
+      @include pad(){
+        margin-left: 8px;
+        font-size: 20px;
+      }
+      @include phone(){
+        margin-left: 4px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  &-social{
+    img{
+      &:hover{
+        transform: scale(1.25);
+      }
+      @include pad(){
+        width: 24px;
+      }
+    }
+    @include pad(){
+      margin-left: 24px;
+    }
+  }
+  &-copyright{
+    justify-content: space-between;
+    @include phone(){
+      flex-direction: column;
+    }
+    p{
+      @include phone(){
+          margin-bottom: 8px;
+      }
+    }
+    .terms{
+      @include phone(){
+        flex-direction: column;
+      }
+      a{
+        margin-left: 48px;
+        color:$text-white;
+        &:hover{
+            color:  $link-orange;
+        }
+        @include pad(){
+          margin-left: 24px;
+        }
+        @include phone(){
+          margin: 0 0 8px 0;
+        }
+      } 
+    } 
+  }
+}
+  
