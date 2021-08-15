@@ -128,3 +128,6 @@ A: 建議可以查看一下自己的相關版本，以下是專案開發者的�
 - [使用 Gulp 進行網頁前端自動化](https://courses.hexschool.com/p/gulp)
 - [這是在講 Gulp 不是飲料是任務自動化工具這件事](https://hsiangfeng.github.io/tags/%E9%80%99%E6%98%AF%E5%9C%A8%E8%AC%9B-Gulp-%E4%B8%8D%E6%98%AF%E9%A3%B2%E6%96%99%E6%98%AF%E4%BB%BB%E5%8B%99%E8%87%AA%E5%8B%95%E5%8C%96%E5%B7%A5%E5%85%B7%E9%80%99%E4%BB%B6%E4%BA%8B/page/2/)
 - [試著把切版專案升級到 gulp4.0 吧](https://ithelp.ithome.com.tw/users/20104132/ironman/2921)
+
+眼鏡形象網站設計稿：https://xd.adobe.com/view/d3d1119a-affd-4f48-8188-f070932224af-8682/screen/9030f53b-bb49-44c3-8d71-9901ad0d5206/specs/
+
